@@ -1,0 +1,23 @@
+.home-content {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2.5rem;
+}
+
+.movie-card {
+  width: 16vw;
+  img {
+    height: 60vh;
+    object-fit: fill;
+    border: none;
+    border-radius: 0.5rem;
+  }
+}
+
+.movie-title {
+  font-weight: bolder;
+}

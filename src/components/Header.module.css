@@ -1,0 +1,38 @@
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: darkslategray;
+  height: 10vh;
+}
+
+.header-title {
+  flex: 2;
+  font-size: xx-large;
+  margin-left: 5rem;
+  color: azure;
+}
+
+.header-nav {
+  display: flex;
+  flex: 2;
+  justify-content: right;
+  align-items: center;
+  padding-right: 5em;
+  gap: 2rem;
+  color: azure;
+}
+
+.search {
+  font-size: large;
+  flex: 3;
+  height: 5vh;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.login-btn {
+  font-size: medium;
+}
