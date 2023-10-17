@@ -1,0 +1,37 @@
+.login-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.login-header-title {
+  flex: 9;
+  display: flex;
+  justify-content: center;
+  margin-left: 8vw;
+  font-size: large;
+}
+
+.login-close-btn {
+  flex: 1;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: medium;
+  align-items: center;
+  height: 20vh;
+  gap: 5rem;
+  width: 70%;
+}
+
+.login-form-controls {
+  display: flex;
+  flex-direction: row;
+}
+
+.login-form span {
+  margin-bottom: 0.2rem;
+}
