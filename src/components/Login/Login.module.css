@@ -16,6 +16,38 @@
   flex: 1;
 }
 
+.login-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: larger;
+}
+
+.login-content button {
+  background-color: beige;
+}
+
+.login-type {
+  width: 100%;
+}
+
+.login-type-btn {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: inherit;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.login-type-btn svg {
+  flex: 1;
+}
+
+.login-type-btn span {
+  flex: 9;
+}
+
 .login-form {
   display: flex;
   flex-direction: column;
@@ -23,15 +55,39 @@
   font-size: medium;
   align-items: center;
   height: 20vh;
-  gap: 5rem;
-  width: 70%;
+  gap: 2rem;
+  padding: 0 1.5rem 0 1.5rem;
+  width: 100%;
 }
 
 .login-form-controls {
   display: flex;
   flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form input {
+  width: 100%;
+}
+
+.login-form button {
+  font-size: larger;
+  width: 100%;
 }
 
 .login-form span {
   margin-bottom: 0.2rem;
+}
+
+.login-btn {
+  background-color: beige;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: inherit;
+  align-items: center;
+  padding: 0.5rem;
+  justify-content: center;
 }
